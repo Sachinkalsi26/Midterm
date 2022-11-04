@@ -1,0 +1,102 @@
+@import url('./layout.css');
+@import url('./reset.css');
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    order: 2;
+}
+#main-option-1 footer{
+    background-color: black;
+    color: white;
+    padding-left: 4em;;
+    height: 1em;
+
+}
+article{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 1px solid black;
+    width: 200px;
+    padding: 1em;
+    
+}
+#a1{
+    margin: 1em;
+}
+#a2{
+    margin: 1em;
+}
+#a3{
+    margin: 1em;
+}
+article img{ 
+    width: 100%;
+}
+main footer{padding: 1em;}
+
+
+aside{
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    outline: 1px solid black;
+    width: 30%;
+    order: 1;   
+}
+aside > h2{
+    color: black;
+    font-size: 2em;
+    padding: 1em;
+}
+aside li {
+    padding: 1em;
+}
+
+#asideoption li:nth-of-type(even) {
+    background: black;
+    color: white;
+}
+
+
+#asidefooter{
+     display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+#asidefooter li{
+    padding: 1em;
+
+}
+#asidefooter li img{
+    height: 2em;
+}
+
+
+
+
+
+#footer-option-1{
+    background-color: gold;
+}
+footer nav ul{
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+footer li{
+    padding: 1em;
+}
+
+footer li img{
+    height: 2em;
+}
+footer p{
+    text-align: center;
+    
+}
